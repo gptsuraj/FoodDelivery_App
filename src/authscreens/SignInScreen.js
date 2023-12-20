@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View, TextInput } from 'react-native'
 import React, { useState, useRef } from 'react'
 import Header from '../components/Header';
-import { colors, title } from '../global/styles';
+import { colors, parameters, title } from '../global/styles';
 import * as Animatable from 'react-native-animatable';
-import { Icon } from '@rneui/base';
+import { Icon, Button } from '@rneui/base';
 
 
 const SignInScreen = () => {
@@ -49,12 +49,20 @@ const SignInScreen = () => {
                         onBlur={() => { setTextInput2Focused(true) }} />
                     <Animatable.View animation={textInput2focused ? "" : "fadeInLeft"} duration={400}>
                         <Icon
-                            name='visibility-off'
+                            name='visibility'
                             iconStyle={{ color: colors.GRAY }}
                             type='material'
                             style={{ marginLeft: 10, }} />
                     </Animatable.View>
                 </View>
+            </View>
+            <View style={{marginHorizontal:20,marginVertical:20,}}>
+                <Button
+                    title={"SIGN IN"}
+                    buttonStyle={parameters.styledButton}
+                    titleStyle={parameters.buttonTitle}
+                    
+                     />
             </View>
         </View>
     )

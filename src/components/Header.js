@@ -3,7 +3,7 @@ import React from 'react'
 import { colors, parameters } from "../global/styles"
 import { Icon } from '@rneui/base'
 
-const Header = ({ title, type }) => {
+const Header = ({ title, type, navigation }) => {
     return (
         <View style={styles.header}>
             <View style={{ marginLeft: 20 }}>
@@ -12,7 +12,8 @@ const Header = ({ title, type }) => {
                     name={type}
                     color={colors.white}
                     size={28}
-                    onPress={() => { }} />
+                    onPress={() => { navigation.goBack()}}
+                     />
             </View>
             <View >
                 <Text style={styles.headerText}>{title}</Text>

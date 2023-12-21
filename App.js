@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { colors } from './src/global/styles';
-import SignInScreen from './src/authscreens/SignInScreen';
+import RootNavigators from './src/navigation/rootNavigators';
 
 export default function App() {
   return (
@@ -12,7 +12,7 @@ export default function App() {
         barStyle="light-content"
         style="auto"
         backgroundColor={colors.statusBar} />
-      <SignInScreen />
+      <RootNavigators />
     </View>
   );
 }

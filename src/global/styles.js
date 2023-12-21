@@ -4,8 +4,11 @@ export const colors = {
     ORANGE: '#DC7633',
     PURPLE: '#8E44AD',
     GRAY: '#566573',
+    GRAY1: '#AEAEAE',
+    GRAY2: '#E5E4E2',
     statusBar: 'DC7633',
-    white: '#ffffff'
+    white: '#ffffff',
+    ORANGE1: '#ff8c52',
 }
 
 export const parameters = {
@@ -23,12 +26,12 @@ export const parameters = {
     },
 
     buttonTitle: {
-        color:'white',
-        fontSize:20,
-        fontWeight:"bold",
-        alignItems:"center",
-        justifyContent:'center',
-        marginTop:-3,
+        color: 'white',
+        fontSize: 20,
+        fontWeight: 'bold',
+        alignItems: "center",
+        justifyContent: 'center',
+        marginTop: -3,
 
     }
 }

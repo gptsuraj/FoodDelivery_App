@@ -9,6 +9,7 @@ export const colors = {
     statusBar: 'DC7633',
     white: '#ffffff',
     ORANGE1: '#ff8c52',
+    BLACK:'#000000',
 }
 
 export const parameters = {

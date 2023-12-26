@@ -9,7 +9,7 @@ export const filterData =
 
 export const restaurantsData = [{
     restaurantName: "Mc Donalds", farAway: "21.2",
-    businessAddress: "22 Bessie street, Cape Town", images: 'https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png',
+    businessAddress: "22 Bessie street, Cape Town", images: 'https://img.freepik.com/premium-photo/grilled-chicken-legs-with-spices-garlic_82893-5468.jpg?size=626&ext=jpg&ga=GA1.1.513947574.1703145542&semt=ais',
     averageReview: 4.9, numberOfReview: 272, coordinates: { lat: -26.1888612, Ing: 28.246325 }, discount: 10, deliveryTime: 15,
     collectTime: 5, foodType: "Burgers, wraps, Milkshakes...",
     productData: [
@@ -30,8 +30,8 @@ export const restaurantsData = [{
     id: 0
 },
 {
-    restaurantName: "Mc Donalds", farAway: "21.2",
-    businessAddress: "22 Bessie street, Cape Town", images: 'https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png',
+    restaurantName: "KFC", farAway: "21.2",
+    businessAddress: "22 Bessie street, Cape Town", images: 'https://img.freepik.com/free-photo/crispy-fried-chicken-wooden-cutting-board_1150-20220.jpg?size=626&ext=jpg&ga=GA1.1.513947574.1703145542&semt=ais',
     averageReview: 4.9, numberOfReview: 272, coordinates: { lat: -26.1888612, Ing: 28.246325 }, discount: 10, deliveryTime: 15,
     collectTime: 5, foodType: "Burgers, wraps, Milkshakes...",
     productData: [
@@ -52,8 +52,8 @@ export const restaurantsData = [{
     id: 1
 },
 {
-    restaurantName: "Mc Donalds", farAway: "21.2",
-    businessAddress: "22 Bessie street, Cape Town", images: 'https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png',
+    restaurantName: "Domino's", farAway: "21.2",
+    businessAddress: "22 Bessie street, Cape Town", images: 'https://img.freepik.com/free-photo/whole-chicken-grill-served-with-rice-garnish-white-plate_114579-873.jpg?size=626&ext=jpg&ga=GA1.1.513947574.1703145542&semt=ais',
     averageReview: 4.9, numberOfReview: 272, coordinates: { lat: -26.1888612, Ing: 28.246325 }, discount: 10, deliveryTime: 15,
     collectTime: 5, foodType: "Burgers, wraps, Milkshakes...",
     productData: [

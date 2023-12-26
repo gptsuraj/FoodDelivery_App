@@ -9,7 +9,10 @@ export const colors = {
     statusBar: 'DC7633',
     white: '#ffffff',
     ORANGE1: '#ff8c52',
-    BLACK:'#000000',
+    BLACK: '#000000',
+    TRANSPARENT: '#ffffff00',
+    LIGHT_GREEN: '#6fe067',
+    LIGHT_GREEN1:'#66DF48'
 }
 
 export const parameters = {

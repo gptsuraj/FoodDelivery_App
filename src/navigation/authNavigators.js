@@ -4,6 +4,8 @@ import { createStackNavigator, TransitionPresets } from '@react-navigation/stack
 import SignInWelcomeScreen from '../screens/authscreens/SignInWelcomeScreen'
 import SignInScreen from '../screens/authscreens/SignInScreen'
 import HomeScreen from '../screens/HomeScreen'
+import BottomNavTabs from './BottomNavTabs'
+import RestaurantsMapScreen from '../screens/RestaurantsMapScreen'
 const AuthStack = createStackNavigator()
 
 const AuthNavigators = () => {
@@ -24,10 +26,18 @@ const AuthNavigators = () => {
                 }}
             />
             <AuthStack.Screen
-                name="HomeScreen"
-                component={HomeScreen}
+                name="BottomNavTabs"
+                component={BottomNavTabs}
                 options={{
-                    headerShown: false, ...TransitionPresets.RevealFromBottomAndroid
+                    headerShown: false, ...TransitionPresets.RevealFromBottomAndroid,
+                }}
+            />
+
+            <AuthStack.Screen
+                name="RestaurantsMapScreen"
+                component={RestaurantsMapScreen}
+                options={{
+                    headerShown: false, ...TransitionPresets.RevealFromBottomAndroid,
                 }}
             />
         </AuthStack.Navigator>
